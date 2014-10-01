@@ -1,7 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400);
 
-
-body {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+body 
+{
+    font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
+}
+
+h1, h2, h3
+{
+	font-family: Raleway, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+h1 
+{
+	font-size: 200%;
+}
+
+h2
+{
+	font-size: 150%;
+}
+
+header
+{
+	background-color: #CCCCCC;
+	margin-left: 10px;
+}
+
+footer
+{
+	background-color: #ABC123;
+	margin-left: 10px;
 }
