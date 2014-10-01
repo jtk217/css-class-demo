@@ -6,6 +6,10 @@ body
     font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
+
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1, h2, h3
@@ -26,12 +30,28 @@ h2
 
 header
 {
-	background-color: #CCCCCC;
-	margin-left: 10px;
+	background-color: rgba(70,70,70,.5);
 }
 
 footer
 {
 	background-color: #ABC123;
-	margin-left: 10px;
+}
+
+.menu 
+{
+	background-color: #a1b2c3;
+}
+
+header p
+{
+	font-size: 120%;
+	color: #FFFFFF;
+}
+
+main 
+{
+	margin: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
